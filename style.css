@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+ }
+
+
+
+
+/* ...........HEADER............ */
+header {
+    height: 8vh;
+    background-color: #24252a;
+    box-shadow: 0px 3px 15px #464646;
+   
+}
+
+a {
+    color: #fff;
+}
+
+.logo {
+    color: orangered;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    letter-spacing: 2px;
+    margin-left: 32px;
+}
+
+nav ul li a:hover{
+    font-size: 18px;
+    color: orangered;
+    font-weight: 600;
+    scale: 2;
+}
+
+/* ...........MAIN............ */
+Main {
+    background-color: #ffffff;
+    width: 100%;
+    height: 84vh;
+    margin-top: 4vh;
+   /* margin-left: 100px;*/
+   
+    /*gap: 20px; */
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    /*flex-wrap: wrap;*/
+
+}
+ /* Pagina COMPLETOS */
+.completos {
+   display: inline;
+      
+}
+
+.completos h1 {
+    color: #9a3412;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.completos h2 {
+    margin-left: 60px;
+    color:#44403c;
+}
+
+/* Pagina FILMES */
+.cenas img {
+    width: 430px;
+    height: 220px;
+    border: 2px solid orangered;
+    border-radius: 8px;
+
+}
+
+.cenas h1 {
+   
+    color: #9a3412;
+    border-radius: 3px;
+}
+
+.cenas p {
+    width: 430px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000;
+    border-radius: 5px;
+}
+
+
+.cenas .btn {
+    width: 80px;
+    background-color: #f97316;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+ 
+}
+
+.completos .btn {
+    width: 240px;
+    margin-left: 60px;
+    background-color: #f97316;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+ 
+}
+
+.completos h2 {
+    font-size: 2rem;
+}
+
+iframe {
+    width: 90%;
+    height: 80vh;
+   
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid orangered;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+/* ...........FOOTER............ */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    background-color: #24252a;
+    color: #fff;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p span {
+    color: orangered;
+    
+}
